@@ -1,38 +1,80 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #432534;
+  color: #EFD6AC;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.headerText {
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #EFD6AC;
+}
+
+.main {
+  margin: 30px 10px;
+}
+
+.myWork {
+  width: 100%;
+  padding-top: 40px;
+  margin: auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.myWork h4 {
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: capitalize;
+  margin-bottom: -20px;
+  letter-spacing: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.myWork h1 {
+  font-weight: bold;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.myWork p {
+  font-weight: 600;
+  font-size: 0.7em;
+  letter-spacing: 2px;
+} 
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .main {
+      margin: 30px 100px;
+    }
+    .myWork {
+      width: 50%;
+    }
+    .myWork h1 {
+      font-size: 5em;
+    }
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
 }

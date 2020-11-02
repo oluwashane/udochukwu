@@ -1,0 +1,74 @@
+.aboutMe h1{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.aboutMe .avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.aboutMe .avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+
+.aboutMe p {
+  text-transform: capitalize;
+  font-size: 1em;
+  line-height: 2em;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+/* skills */
+
+.skills {
+  margin: 40px 0;
+}
+
+.skills h4 {
+  font-size: 1em;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.skillList {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: auto;
+}
+
+.skillList p {
+  background-color: #3d092331;
+  /* color: #fff; */
+  text-align: center;
+  padding: 8px 2px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.contactMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20%;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.contactMe a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #EFD6AC;
+}
