@@ -21,7 +21,7 @@ const About = () => {
       <h1>About</h1>
       <p>
       I would have to skip the boring part and go straight to the point. 
-      I'm a goal-driven developer that focuses on getting the work done with minimum or no error. 
+      I'm a goal-driven developer that focuses on getting the work done with minimum error. 
       Over the years of learning and development, I have been opportune to learn from the best and work as a team member to contribute and find solution to problems. 
       Right now, I'm currently working with MERN stack.
       </p>
