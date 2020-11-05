@@ -23,6 +23,13 @@ body {
   font-weight: 700;
   letter-spacing: 2px;
   color: #EFD6AC;
+  padding: 10px;
+  transition: all 1s ease-out;
+}
+
+.headerText:hover {
+  color: #000;
+  background-color: #EFD6AC;
 }
 
 .main {
