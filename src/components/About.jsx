@@ -5,12 +5,7 @@ const skills = (
   <div className="skills">
     <h4>What do i do</h4>
     <div className="skillList">
-      <p>html</p>
-      <p>sass</p>
-      <p>vanilla</p>
-      <p>react</p>
-      <p>redux</p>
-      <p>Node</p>
+      <p>html, sass, Javascript(React, Node, Express), redux</p>
     </div>
   </div>
 );
@@ -27,8 +22,8 @@ const About = () => {
       </p>
       {skills}
       <div className="contactMe">
-        <a class="underline-button text-color" rel="noopener noreferrer" target="_blank" href="https://github.com/oluwashane">Github</a>
-        <a className="underline-button text-color" rel="noopener noreferrer" target="_blank" href="mailto:ogbulaforudochukwu@gmail.com">Email</a>
+        <a class="text-color" rel="noopener noreferrer" target="_blank" href="https://github.com/oluwashane">Github</a>
+        <a className="text-color" rel="noopener noreferrer" target="_blank" href="mailto:ogbulaforudochukwu@gmail.com">Email</a>
       </div>
       
 </div>
