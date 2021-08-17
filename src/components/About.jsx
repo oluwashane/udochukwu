@@ -23,6 +23,7 @@ const About = () => {
       {skills}
       <div className="contactMe">
         <a class="text-color" rel="noopener noreferrer" target="_blank" href="https://github.com/oluwashane">Github</a>
+        <a className="text-color" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1ZoF_VCdguIhexI0JFQCQdGkWJROASD-U/view?usp=sharing">Resume</a>
         <a className="text-color" rel="noopener noreferrer" target="_blank" href="mailto:ogbulaforudochukwu@gmail.com">Email</a>
       </div>
       
